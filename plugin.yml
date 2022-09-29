@@ -1,0 +1,6 @@
+name: Traveller
+description: Allows you to add a travelling compass item !
+author: Enzo.
+version: 1.0
+api: 4.9.0
+main: Enzo\Traveller

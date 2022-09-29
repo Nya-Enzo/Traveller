@@ -1,0 +1,28 @@
+#Item config
+item:
+  #Choose the item's name
+  name: "§f- §eTraveller §f-"
+  #Item type. Can be formatted as "id:meta", or "name", or "name:meta". E.g: diamond_sword ; compass ; wool:12
+  type: "compass"
+  #If the item should appear enchanted.
+  enchanted: true
+  #Give settings
+  give:
+    #If the item should be given to a player once he joins.
+    join: true
+    #Slot where the item should be placed at. Goes from 0-8. 0 is slot 1 ... and 8 is slot 9. 4 is the middle slot
+    slot: 4
+    #If the item should be given to a player when he respawns
+    respawn: true
+    #Alias. Can be used to give yourself the traveller item. For example, putting "travel" would allow you to do /give YourUsername travel 1
+    #Put an empty string ('') to not register an alias
+    alias: "navi_compass"
+#Command config
+command:
+  #If the command should be enabled
+  enabled: false
+  #Name of the command
+  name: "travel"
+  #Description of the command
+  desc: "Travel to another server without any item !"
+  #The command wil allow you to open the traveller through the command.

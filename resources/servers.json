@@ -1,0 +1,14 @@
+{
+  "example":
+  {
+    "display-name": "§9Factions",
+    "info":
+    {
+      "ip": "current",
+      "port": -1
+    },
+    "icon": "textures/items/diamond_sword",
+    "icon-type": "path",
+    "show-address-to-form": true
+  }
+}
